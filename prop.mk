@@ -85,8 +85,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
 
 # Fingerprint
-PRODUCT_PROPERTY_OVERRIDES += \
-persist.qfp=false
+#PRODUCT_PROPERTY_OVERRIDES += \
+#persist.qfp=false
 
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -180,7 +180,3 @@ net.tcp.2g_init_rwnd=10
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.usb.config.extra=none
-
-# Wifi
-PRODUCT_PROPERTY_OVERRIDES += \
-wifi.interface=wlan0
